@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>נכסים בשיווק | אביתר כהן</title>
+  <link rel="stylesheet" href="properties.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-badge">א</div>
+        <span>אביתר כהן / EV</span>
+      </div>
+
+      <nav class="top-actions">
+        <a class="btn btn-secondary" href="index.html">ראשי</a>
+        <a class="btn btn-secondary" href="properties.html">לצפייה בכל הנכסים</a>
+        <a href="https://wa.me/972506711227" target="_blank" rel="noopener" class="btn btn-primary">דברו איתי</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="eyebrow">נכסים בשיווק</div>
+        <h1>הנכסים של אביתר כהן</h1>
+        <p>
+          עמוד נכסים מסודר עם תמונות, פרטים מרכזיים, חיפוש, סינון ומיון -
+          כדי שלקוח יוכל למצוא מהר את הנכס שמתאים לו.
+        </p>
+      </div>
+    </section>
+
+    <section class="filters-section">
+      <div class="container">
+        <div class="filters-card">
+          <div class="filters-grid">
+            <div class="field">
+              <label for="searchInput">חיפוש</label>
+              <input id="searchInput" type="text" placeholder="חיפוש לפי כותרת או שכונה" />
+            </div>
+
+            <div class="field">
+              <label for="neighborhoodFilter">שכונה</label>
+              <select id="neighborhoodFilter">
+                <option value="">כל השכונות</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="roomsFilter">חדרים</label>
+              <select id="roomsFilter">
+                <option value="">כל האפשרויות</option>
+                <option value="3">3 חדרים</option>
+                <option value="4">4 חדרים</option>
+                <option value="5">5 חדרים</option>
+                <option value="6">6 חדרים</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="sortFilter">מיון</label>
+              <select id="sortFilter">
+                <option value="default">ברירת מחדל</option>
+                <option value="price-asc">מחיר: מהנמוך לגבוה</option>
+                <option value="price-desc">מחיר: מהגבוה לנמוך</option>
+                <option value="size-desc">גודל: מהגדול לקטן</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="toggles">
+            <label class="toggle">
+              <input type="checkbox" id="elevatorFilter" />
+              <span>רק עם מעלית</span>
+            </label>
+
+            <label class="toggle">
+              <input type="checkbox" id="mamadFilter" />
+              <span>רק עם ממ״ד</span>
+            </label>
+
+            <label class="toggle">
+              <input type="checkbox" id="parkingFilter" />
+              <span>רק עם חניה</span>
+            </label>
+
+            <button id="resetFilters" class="reset-btn" type="button">איפוס סינון</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="properties-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>נכסים זמינים</h2>
+            <p>אפשר להוסיף, לערוך או למחוק נכסים דרך קובץ JavaScript אחד.</p>
+          </div>
+          <div id="resultsCount" class="results-count"></div>
+        </div>
+
+        <div id="propertiesGrid" class="properties-grid"></div>
+
+        <div id="emptyState" class="empty-state hidden">
+          <h3>לא נמצאו נכסים</h3>
+          <p>נסו לשנות את הסינון או לאפס את החיפוש.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="properties.js"></script>
+</body>
+</html>
