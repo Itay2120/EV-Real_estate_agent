@@ -118,6 +118,12 @@ a {
   background: var(--accent-dark);
 }
 
+.btn-secondary {
+      background: white;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+
 .hero {
   padding: 42px 0 20px;
 }
