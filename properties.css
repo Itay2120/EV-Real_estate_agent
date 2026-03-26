@@ -453,7 +453,7 @@ select {
 
 .property-btn {
   flex: 1;
-  min-width: 140px;
+  min-width: 170px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -537,4 +537,16 @@ footer {
   .property-actions {
     flex-direction: column;
   }
+}
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex-shrink: 0;
 }

@@ -357,3 +357,15 @@ footer {
     padding: 20px;
   }
 }
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
