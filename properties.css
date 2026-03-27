@@ -51,12 +51,8 @@ select {
 }
 
 .topbar {
-  padding: 18px 0;
-  position: sticky;
-  top: 0;
-  z-index: 30;
-  backdrop-filter: blur(10px);
-}
+      padding: 20px 0;
+    }
 
 .topbar-inner {
   background: rgba(255, 255, 255, 0.82);
