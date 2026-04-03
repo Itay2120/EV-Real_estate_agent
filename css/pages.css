@@ -1,0 +1,312 @@
+.hero {
+  padding: 42px 0 24px;
+}
+
+.hero-inner {
+  text-align: center;
+  max-width: 860px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-copy h1 {
+  margin-bottom: 12px;
+}
+
+.hero-lead {
+  font-size: 1.1rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+.hero-block {
+  margin-bottom: 20px;
+}
+
+.hero-block h2 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: var(--text);
+}
+
+.hero-block p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+
+.hero-actions {
+  margin-top: 24px;
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.08;
+}
+
+.hero p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 60ch;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  background: var(--surface);
+  border-radius: 30px;
+  padding: 26px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(17, 24, 39, 0.05);
+}
+
+.hero-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+}
+
+.hero-card ul {
+  margin: 0;
+  padding-right: 18px;
+  color: var(--muted);
+}
+
+.section {
+  padding: 26px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+}
+
+.section-title p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.cards-3,
+.cards-2 {
+  display: grid;
+  gap: 18px;
+}
+
+.cards-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cards-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 26px;
+  padding: 24px;
+  border: 1px solid rgba(17, 24, 39, 0.05);
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.15rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.step {
+  background: var(--surface);
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(17, 24, 39, 0.05);
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: rgba(184, 139, 74, 0.12);
+  color: var(--accent-dark);
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.step h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.step p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ffffff 0%, #fbf8f3 100%);
+}
+
+.cta {
+  padding: 34px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: white;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.cta h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.cta p {
+  margin: 0 auto 20px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 60ch;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-pill {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  padding: 12px 16px;
+  font-weight: 700;
+}
+
+.legal-section {
+  padding: 18px 0 56px;
+}
+
+.legal-card {
+  background: var(--surface);
+  border: 1px solid rgba(17, 24, 39, 0.05);
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.legal-intro {
+  margin-bottom: 24px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.legal-block {
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.legal-block:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.legal-block h2 {
+  margin: 0 0 12px;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.legal-block p {
+  margin: 0 0 12px;
+  color: var(--text);
+}
+
+.legal-block ul {
+  margin: 0;
+  padding-right: 20px;
+}
+
+.legal-block li {
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.contact-box {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 20px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+}
+
+.contact-box p {
+  margin: 0 0 8px;
+}
+
+.contact-box p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .hero-grid,
+  .cards-3,
+  .cards-2,
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .top-actions,
+  .hero-actions,
+  .cta-actions {
+    flex-direction: column;
+  }
+
+  .btn,
+  .contact-pill {
+    width: 100%;
+  }
+
+  .card,
+  .step,
+  .hero-card,
+  .cta,
+  .legal-card {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
